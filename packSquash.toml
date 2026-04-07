@@ -1,0 +1,5 @@
+pack_directory = '.\'
+zip_spec_conformance_level = "disregard"
+zip_comment = "A resource pack by GameLord2011. [[WARNING]]: This was made using packsquash, so don't try and open this, it'll just be a pain."
+
+['overlay_26_1']
