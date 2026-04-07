@@ -1,0 +1,48 @@
+{
+    "pack": {
+        "description": [
+            {
+                "text": "This is a "
+            },
+            {
+                "text": "GameLord2011",
+                "color": "#00aa00",
+                "click_event": {
+                    "action": "open_url",
+                    "url": "https://github.com/gamelord2011"
+                }
+            },
+            {
+                "text": " resource pack that brings back the "
+            },
+            {
+                "text": "PC",
+                "color": "#FF0000"
+            },
+            {
+                "text": " "
+            },
+            {
+                "text": "Gamer",
+                "color": "#000000"
+            },
+            {
+                "text": " cows to modern Minecraft."
+            }
+        ],
+        "pack_format": 84,
+        "supported_formats": [55, 63, 64, 69, 75, 84],
+        "min_inclusive": [55, 0],
+        "max_inclusive": [84, 0]
+    },
+    "overlays": {
+        "entries": [
+            {
+                "directory": "overlay_26_1",
+                "formats": [84],
+                "min_format": [84, 0],
+                "max_format": [84, 0]
+            }
+        ]
+    }
+}
