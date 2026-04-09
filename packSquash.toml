@@ -1,4 +1,4 @@
-pack_directory = '.\'
+pack_directory = './'
 zip_spec_conformance_level = "disregard"
 
 ["overlay_26_1/**/*"]
