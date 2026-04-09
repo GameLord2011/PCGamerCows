@@ -1,5 +1,17 @@
 pack_directory = '.\'
 zip_spec_conformance_level = "disregard"
-zip_comment = "A resource pack by GameLord2011. [[WARNING]]: This was made using packsquash, so don't try and open this, it'll just be a pain."
 
-['overlay_26_1']
+["overlay_26_1/**/*"]
+force_include = true
+
+["overlay_26_1/**/*.png"] # Applying default png config bcs of a jank workaround :P
+image_data_compression_iterations= 5
+color_quantization_target = 'auto'
+color_quantization_dithering_level = 0.85
+maximum_width_and_height = 8192
+skip_alpha_optimizations = false
+downsize_if_single_color = false
+png_obfuscation = false
+
+["LICENSE"]
+force_include = true

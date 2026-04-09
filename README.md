@@ -11,11 +11,11 @@ If you use this resource pack in a video that will be publicly viewable (e.g. po
 
 ## Building the resource pack
 
-This was developed on a windows computer, so the "build script" uses PowerShell (tested in PowerShell 5.1), run it using the following:
+This pack is built using packsquash, use the following command to build:
 
-```PowerShell
-. .\build-pack.ps1
+```bash
+./[INSERT_PATH_TO_PACKSQUASH_EXECUTABLE_HERE] packSquash.toml
 ```
 
 ---
-_¹PC Gamer Magazine issue 214, published by PC Gamer in June, 2011. All rights reserved._
+_¹PC Gamer Magazine issue 214, published by PC Gamer in June, 2011._
